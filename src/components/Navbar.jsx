@@ -34,7 +34,7 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8 flex justify-between items-center">
           <Link to="/" className="flex items-center gap-2 group">
-            <img src="/logo.jpeg" alt="Ibrahim Digital Logo" className="h-14 md:h-16 w-auto" />
+            <img src="/logo.jpeg" alt="Ibrahim Digital Logo" className="h-14 md:h-16 w-auto rounded-2xl overflow-hidden shadow-sm" />
           </Link>
 
           {/* Desktop Nav */}

@@ -85,7 +85,7 @@ export default function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-white rounded-3xl p-8 lg:p-10 border border-gray-100 hover:border-primary/20 hover:shadow-2xl transition-all group"
+              className="bg-white rounded-3xl p-8 lg:p-10 border border-gray-100 hover:border-primary/20 shadow-xl hover:shadow-2xl transition-all group"
             >
               <div className="flex items-start justify-between mb-6">
                 <div className="w-16 h-16 rounded-2xl bg-gray-50 flex items-center justify-center group-hover:bg-primary transition-colors duration-300">

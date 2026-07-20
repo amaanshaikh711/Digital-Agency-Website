@@ -13,7 +13,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-6">
             <Link to="/" className="flex items-center gap-2 group inline-flex">
-              <img src="/logo.jpeg" alt="Ibrahim Digital Logo" className="h-10 w-auto" />
+              <img src="/logo.jpeg" alt="Ibrahim Digital Logo" className="h-10 md:h-12 w-auto rounded-2xl overflow-hidden shadow-sm" />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
               Your trusted digital growth partner. We help ambitious brands scale through data-driven marketing strategies and premium digital experiences.
